@@ -26,6 +26,9 @@ function processForm(event) {
         birthdate: document.getElementById("birthdate").value,
         favColor: document.getElementById("favcolor").value,
     }
+
+
+    console.log(newUser);
     // TODO: Call the addUser function and pass the newUser object as a parameter
 }
 
