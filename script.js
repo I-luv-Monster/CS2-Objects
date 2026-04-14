@@ -22,7 +22,9 @@ function processForm(event) {
     // TODO: Create a newUser object that has all the user's info from the form
     let newUSer = {
         name: document.getElementById("name").value,
-        email: document.getElementById("email")
+        email: document.getElementById("email").value,
+        birthdate: document.getElementById("birthdate").value,
+        favColor: document.getElementById("favcolor").value,
     }
     // TODO: Call the addUser function and pass the newUser object as a parameter
 }
